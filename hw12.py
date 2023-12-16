@@ -1,8 +1,3 @@
-"""
-Author: Tyler Rush
-Description: Connect to database and use fetchall.
-"""
-
 import sqlite3
 # Open the books database
 conn = sqlite3.connect('books.db')
