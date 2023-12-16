@@ -11,4 +11,4 @@ description = cursor.description
 data = cursor.fetchall()
 # Print the results in a tabular format
 for row in data:
-print("%-20s%-20s%-20s" % (row[0], row[1], row[2]))
+    print("%-20s%-20s%-20s" % (row[0], row[1], row[2]))
