@@ -1,3 +1,8 @@
+"""
+Author: Tyler Rush
+Description: Use fetchall method example
+"""
+
 import sqlite3
 # Open the books database
 conn = sqlite3.connect('books.db')
